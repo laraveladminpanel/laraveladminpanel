@@ -18,7 +18,9 @@
         "filp/whoops": "~2.0",
         "fzaninotto/faker": "~1.4",
         "mockery/mockery": "0.9.*",
-        "phpunit/phpunit": "~6.0"
+        "phpunit/phpunit": "~6.0",
+        "orchestra/database": "^3.5",
+        "orchestra/testbench-browser-kit": "^3.5"
     },
     "autoload": {
         "classmap": [
@@ -26,8 +28,7 @@
             "database/factories"
         ],
         "psr-4": {
-            "App\\": "app/",
-            "TCG\\Voyager\\": "vendor/laraveladminpanel/admin/src/"
+            "App\\": "app/"
         }
     },
     "autoload-dev": {
