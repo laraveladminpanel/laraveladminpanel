@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "86765906d19b25b59b370b1cec36dde3",
-    "content-hash": "036a10c8c1dd52cdbeb87be89f330b65",
+    "hash": "cc44133ee23de9f75feb22a12888bcb4",
+    "content-hash": "074273c1dd05963e88395f228c5667ed",
     "packages": [
         {
             "name": "arrilot/laravel-widgets",
@@ -1614,16 +1614,16 @@
         },
         {
             "name": "laraveladminpanel/admin",
-            "version": "dev-master",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laraveladminpanel/admin.git",
-                "reference": "b102389b13ff546877db07c17d2ea3d11519189a"
+                "reference": "4ca3c8cc8c637d530adfea24403d57fbe7c56d77"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laraveladminpanel/admin/zipball/b102389b13ff546877db07c17d2ea3d11519189a",
-                "reference": "b102389b13ff546877db07c17d2ea3d11519189a",
+                "url": "https://api.github.com/repos/laraveladminpanel/admin/zipball/4ca3c8cc8c637d530adfea24403d57fbe7c56d77",
+                "reference": "4ca3c8cc8c637d530adfea24403d57fbe7c56d77",
                 "shasum": ""
             },
             "require": {
@@ -1648,7 +1648,7 @@
             "extra": {
                 "laravel": {
                     "providers": [
-                        "LaravelAdminPanel\\VoyagerServiceProvider"
+                        "LaravelAdminPanel\\AdminServiceProvider"
                     ]
                 }
             },
@@ -1674,7 +1674,7 @@
                 "laravel",
                 "panel"
             ],
-            "time": "2017-12-06 20:12:20"
+            "time": "2017-12-06 21:49:30"
         },
         {
             "name": "league/flysystem",
